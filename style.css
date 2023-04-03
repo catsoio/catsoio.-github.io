@@ -70,28 +70,24 @@ body {
   opacity: 0;
   border-radius: 100%;
 }
-.about .social.portfolio {
+
+.about .social.twitter {
   transition: all 0.8s ease;
 }
-.about .social.portfolio .icon {
-  background-image: url(https://rafaelavlucas.github.io/assets/codepen/link.svg);
-}
-.about .social.dribbble {
+
+.about .social.instagram {
   transition: all 0.3s ease;
 }
-.about .social.dribbble .icon {
-  background-image: url(https://rafaelavlucas.github.io/assets/codepen/dribbble.svg);
-}
+
 .about .social.linkedin {
   transition: all 0.8s ease;
 }
-.about .social.linkedin .icon {
-  background-image: url(https://rafaelavlucas.github.io/assets/codepen/linkedin.svg);
-}
+
 .about:hover {
   width: 105px;
   height: 105px;
   transition: all 0.6s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+  cursor: pointer;
 }
 .about:hover .logo {
   opacity: 1;
@@ -110,20 +106,21 @@ body {
   background-size: 65%;
   opacity: 1;
 }
-.about:hover .social.portfolio {
+.about:hover .social.twitter {
   right: 0;
   bottom: calc(100% - 40px);
   transition: all 0.3s 0s cubic-bezier(0.64, 0.01, 0.07, 1.65);
 }
-.about:hover .social.portfolio .icon:hover {
+.about:hover .social.twitter .icon:hover {
   background-color: #698fb7;
+  transform: scale(1.1);
 }
-.about:hover .social.dribbble {
+.about:hover .social.instagram {
   bottom: 45%;
   right: 45%;
   transition: all 0.3s 0.15s cubic-bezier(0.64, 0.01, 0.07, 1.65);
 }
-.about:hover .social.dribbble .icon:hover {
+.about:hover .social.instagram .icon:hover {
   background-color: #ea4c89;
 }
 .about:hover .social.linkedin {
@@ -133,6 +130,7 @@ body {
 }
 .about:hover .social.linkedin .icon:hover {
   background-color: #0077b5;
+  transform: scale(1.1);
 }
 .wrapper {
   position: relative;
