@@ -135,6 +135,9 @@ body {
 .wrapper {
   position: relative;
   background: url(./BG.jpg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .wrapper:before {
   content: "";
@@ -168,11 +171,14 @@ header {
 }
 
 .content {
-  top: 50%;
-  left: 50%;
   text-align: center;
   color: #fff;
-  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.476);
+  border-radius: 10px;
+  padding: 50px;
+  min-width: 322px;
+  backdrop-filter: blur(10px);
+
 }
 .content h1 {
   margin-top: 0;
