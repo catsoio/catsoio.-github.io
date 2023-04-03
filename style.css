@@ -189,6 +189,7 @@ header {
 }
 .content input {
   float: left;
+  width: 120px;
   font-size: 16px;
   border: 1px solid #fff;
 }
@@ -199,7 +200,7 @@ header {
   border-bottom-left-radius: 4px;
 }
 .content input[type="submit"] {
-  padding: 12px 24px;
+  padding: 12px 14px;
   color: #fff;
   background: transparent;
   border-top-right-radius: 4px;
