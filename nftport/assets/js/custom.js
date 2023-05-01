@@ -1,17 +1,17 @@
 (function ($) {
     //preloader js
     $(window).on('load', function () {
-        $('.preloader').fadeOut(1000);
+        $('.preloader').fadeOut(2000);
     })
 
 
     //Header
     var fixed_top = $("header");
     $(window).on('scroll', function () {
-        if ($(this).scrollTop() > 200) {
+        if ($(this).scrollTop() > 150) {
             fixed_top.addClass("header--fixed animated fadeInDown");
         } else {
-            fixed_top.removeClass("header--fixed animated fadeInDown");
+            // fixed_top.removeClass("header--fixed animated fadeInDown");
         }
     });
 
